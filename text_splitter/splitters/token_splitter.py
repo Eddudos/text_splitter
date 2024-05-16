@@ -1,7 +1,7 @@
 from typing import List
 
-from text_splitter.splitters.base import BaseSplitter
-from text_splitter.utils.tokenizer import Tokenizer
+from . import BaseSplitter
+from text_splitter.utils import Tokenizer
 
 
 class TokenSplitter(BaseSplitter):

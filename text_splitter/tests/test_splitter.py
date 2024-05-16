@@ -2,7 +2,7 @@ import unittest
 
 from typing import List
 from text_splitter import TextSplitter
-from text_splitter.utils.tokenizer import NLTKTokenizer, SpaCyTokenizer, Tokenizer
+from text_splitter.utils import NLTKTokenizer, SpaCyTokenizer, Tokenizer
 
 
 class TestTextSplitter(unittest.TestCase):

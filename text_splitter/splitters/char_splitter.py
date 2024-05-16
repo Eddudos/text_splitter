@@ -1,6 +1,6 @@
 from typing import List
 
-from text_splitter.splitters.base import BaseSplitter
+from . import BaseSplitter
 
 
 class CharSplitter(BaseSplitter):
