@@ -33,8 +33,15 @@ spacy_fragments = spacy_splitter.split_text(text)
 ### Components
 
 * **TextSplitter:** The main class for splitting text. Accepts `max_chars`, `max_tokens`, `split_strategy` and `tokenizer` parameters in the constructor. Provides `split_text(text)` method to split the text using the chosen strategy. 
-* **Splitters:** Module containing different splitting strategies. `CharSplitter`: Splits text by character count. `TokenSplitter`: Splits text by token count. `SentenceSplitter`: Splits text by sentences
-* **Utils:** Module containing helper functions. `Tokenizer`: Abstract base class for tokenizers. `NLTKTokenizer`: Tokenizer based on NLTK  `SpaCyTokenizer`: Tokenizer based on SpaCy
+* **Splitters:** Module containing different splitting strategies.
+  - `CharSplitter`: Splits text by character count
+  - `TokenSplitter`: Splits text by token count
+  - `SentenceSplitter`: Splits text by sentences
+* **Utils:** Module containing helper functions
+  - `Tokenizer`: Abstract base class for tokenizers 
+  - `NLTKTokenizer`: Tokenizer based on NLTK  
+  - `SpaCyTokenizer`: Tokenizer based on SpaCy
+* **Tests:** Simple test-cases implementation 
 ### Contributing
 
 Thank me very much. 
